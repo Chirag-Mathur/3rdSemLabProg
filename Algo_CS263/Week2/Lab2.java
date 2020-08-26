@@ -121,7 +121,7 @@ public class Lab2 {
 
         // Ending time of the algo
         long end = System.nanoTime();
-        return ((end - start)/1000);
+        return ((end - start) / 1000);
     }
 
     long binarySearch(int arr[], int k) {
@@ -272,16 +272,17 @@ public class Lab2 {
         sum = 0;
         for (int i = 0; i < 15; i++) {
             sum += obj.binarySearch(A, A[750]);
-        //}
-        System.out.println(sum / 15);
-        sum = 0;
-        //for (int i = 0; i < 15; i++) {
+            // }
+            System.out.println(sum / 15);
+            sum = 0;
+            // for (int i = 0; i < 15; i++) {
             sum += obj.binarySearch(A, A[0]);
-        //}
-        System.out.println(sum / 15);
+            // }
+            System.out.println(sum / 15);
 
-        // obj.binarySearch(A, 521);
+            // obj.binarySearch(A, 521);
 
-        System.out.println("----------------------------------------");
+            System.out.println("----------------------------------------");
+        }
     }
 }
